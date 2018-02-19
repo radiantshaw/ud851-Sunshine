@@ -39,5 +39,22 @@
     <!--TODO (13) Make the width and height of the ProgressBar 42dp-->
     <!--TODO (14) Set the layout_gravity of the ProgressBar to center-->
     <!--TODO (15) Set the default visibility of the ProgressBar to invisible-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/error_message"
+        android:text="@string/error_message"
+        android:textSize="16sp"
+        android:paddingTop="22dp"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/progress_circle"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
 
 </FrameLayout>
